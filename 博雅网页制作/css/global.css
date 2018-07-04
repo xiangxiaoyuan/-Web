@@ -1,0 +1,24 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Microsoft YaHei","Songti SC","Songti TC","SimSun";
+}
+.center{
+    width: 1000px;
+    margin: 0 auto;
+}
+.f12{
+    font-size: 12px;
+}
+.f14{
+    font-size: 14px;
+}
+.fl{
+    float: left;
+}
+.cl{
+    clear: both;
+}

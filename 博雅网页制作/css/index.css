@@ -1,0 +1,272 @@
+@charset "UTF-8";
+.header{
+    height: 58px;
+    background: rgb(25,29,58);
+}
+.header .logo{
+    padding-right: 36px;
+    height: 58px;
+}
+.header .nav ul{
+    list-style: none;
+}
+.header .nav ul li{
+    text-align: center;
+    float: left;
+    border-right: 1px solid rgb(37,41,71);
+}
+.header .nav ul li a{
+    display: block;
+    line-height: 58px;
+    width: 100px;
+    text-decoration: none;
+    color: rgb(129,132,150);
+}
+.header .nav ul li a.first{
+    border-left: 1px solid rgb(37,41,71);
+    color: white;
+    background: rgb(37,41,71);
+}
+.header .nav ul li a:hover{
+    background: rgb(37,41,71);
+    color: white;
+}
+.header .jrwm{
+    position: relative;
+}
+.header .jrwm a{
+    display: block;
+    width: 100px;
+    height: 34px;
+    position: absolute;
+    top: 12px;
+    left: 48px;
+    line-height: 34px;
+    background: rgb(56,183,116);
+    font-size: 12px;
+    color :white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 4px;
+}
+.header .jrwm a:hover{
+    background: rgb(43,163,100);
+}
+.banner{
+    height: 463px;
+    background: url("images/banner.jpg") no-repeat center top;
+    position: relative;
+}
+.content{
+    height: 700px;
+    background: url(images/indexmainbg.jpg) no-repeat center bottom;
+}
+.content .inner_c{
+    height: 229px;
+    padding-top: 50px;
+    border-bottom: 1px solid rgb(219,225,231);
+}
+.content .inner_c ul{
+    list-style: none;
+}
+.content .inner_c ul li {
+    float: left;
+    padding-right: 43px;
+    text-align: center;
+}
+.content .inner_c ul li.last{
+    padding-right: 0;
+}
+.content .inner_c ul li a{
+    display: block;
+    width: 218px;
+    height: 192px;
+    text-decoration: none;
+}
+.content .inner_c ul li a:visited{
+    color: rgb(68,72,102);
+}
+.content .inner_c ul li a:hover{
+    background: rgb(56,183,116);
+}
+.content .inner_c ul li a:hover h3{
+    color: white;
+}
+.content .inner_c ul li a img{
+    width: 218px;
+    height: 130px;
+}
+.w217{
+    width: 217px;
+}
+.content .inner_c ul li a h3{
+    text-align: center;
+    font-size: 14px;
+    line-height: 24px;
+    padding-top: 9px;
+    color: rgb(68,72,102);
+}
+.content .inner_c ul li a span{
+    display:inline-block;
+    color: rgb(56,183,115);
+    text-align: center;
+    font-size: 12px;
+    line-height: 24px;
+    padding-right: 11px;
+    background: url("images/djbf.png") no-repeat right center;
+}
+.content .inner_c ul li a:hover span{
+    color: white;
+    background: url(images/djbf2.png) no-repeat right center;
+}
+.content .info{
+    padding-top: 53px;
+}
+.content .info .news{
+    position: relative;
+    float: left;
+    padding-top: 110px;
+    width: 500px;
+    background: url("images/bynewsbg.jpg") no-repeat;
+}
+.content .info .news ul{
+    list-style: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.content .info .news ul li{
+    line-height: 50px;
+    border-bottom: 1px solid rgb(219,225,231);
+}
+.content .info .news ul li a{
+    overflow: hidden;
+    color: rgb(68,72,102);
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Microsoft Sans Serif";
+    outline: none;
+}
+.content .info .news ul li a:hover{
+    color: rgb(56,183,115);
+}
+.content .info .news ul li span{
+    font-size: 12px;
+    float: right;
+    color: #afbecf;
+    margin-left: 18px;
+}
+.content .info .news a.more{
+    position: absolute;
+    top: 40px;
+    left: 218px;
+    width: 66px;
+    height: 28px;
+    background: url("images/icons.png") no-repeat -7px -9px;
+}
+.content .info .news a.more:hover{
+    width: 64px;
+    height: 26px;
+    position: absolute;
+    top: 40px;
+    left: 218px;
+    background: url(images/icons.png) no-repeat -8px -40px;
+}
+.content .info .jobs{
+    position: relative;
+    float: left;
+    width: 500px;
+    background: url("images/byhrbg3.jpg");
+    height: 310px;
+}
+.content .info .jobs h1{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top: 38px;
+    left: 80px;
+}
+.content .info .jobs p{
+    font-size: 14px;
+    color :white;
+    position: absolute;
+    top: 78px;
+    left: 80px;
+}
+.content .info .jobs h3{
+    font-size: 14px;
+    color: white;
+    position: absolute;
+    top: 115px;
+    left: 20px;
+}
+.content .info .jobs ul{
+    list-style: none;
+    padding-left: 20px;
+    width: 305px;
+    padding-top: 130px;
+}
+.content .info .jobs ul li{
+    line-height: 37px;
+    border-bottom: 1px solid rgb(111,222,163);
+}
+.content .info .jobs ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Microsoft Sans Serif";
+}
+.content .info .jobs a.more{
+    width: 64px;
+    height: 26px;
+    position: absolute;
+    top: 40px;
+    left: 218px;
+    background: url(images/icons.png) no-repeat -8px -40px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+.content .info .jobs a.more:hover{
+    position: absolute;
+    top: 40px;
+    left: 218px;
+    width: 66px;
+    height: 28px;
+    background: url("images/icons.png") no-repeat -7px -9px;
+    border: none;
+}
+.footer{
+    height: 91px;
+    background: rgb(25,29,58);
+}
+.footer .left_part {
+    float: left;
+    width: 250px;
+    height: 91px;
+}
+.footer .left_part a{
+    font-size: 12px;
+    text-decoration: none;
+    color: rgb(108,110,126);
+    line-height: 91px;
+}
+.footer .left_part span{
+    color: rgb(108,110,126);
+}
+.footer .right_part{
+    float: left;
+    width: 750px;
+    height: 91px;
+    text-align: right;
+    color: rgb(108,110,126);
+    line-height: 91px;
+    font-size: 12px;
+}
+.footer .right_part .police{
+    width: 40px;
+    position: relative;
+    top: 20px;
+}
+
+
+
+
